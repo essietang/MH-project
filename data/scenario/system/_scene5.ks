@@ -1,0 +1,5 @@
+[preload  storage="./data/bgimage/adultward.png"  ]
+[preload  storage="./data/fgimage/chara/8/mr_leung_black_n_white.png"  ]
+[preload  storage="./data/fgimage/chara/1/you_2.png"  ]
+[preload  storage="./data/bgimage/black.png"  ]
+[return]

@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/sars_map.png"  ]
+[preload  storage="./data/bgimage/gwongwah.png"  ]
+[preload  storage="./data/bgimage/A_E.png"  ]
+[preload  storage="./data/bgimage/record.png"  ]
+[preload  storage="./data/fgimage/default/MEDICAL_RECORD.png"  ]
+[return]
