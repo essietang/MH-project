@@ -74,7 +74,7 @@ You are now one among the patients, and as the days pass, your condition worsens
 You have trouble breathing, but you still take the time to call your husband and family to see how they are doing.[p]
 [_tb_end_text]
 
-[chara_mod  name="DrLilyTang"  time="600"  cross="false"  storage="chara/1/you_2.png"  ]
+[chara_mod  name="DrLilyTang"  time="100"  cross="false"  storage="chara/1/you_2.png"  ]
 [chara_show  name="Albert"  time="1000"  wait="true"  left="361"  top="181"  width="86"  height="201"  reflect="false"  ]
 [tb_start_text mode=1 ]
 # You
@@ -151,6 +151,7 @@ Knowing how easily SARS is spread, you quickly put on your N95 mask before the d
 [_tb_end_text]
 
 [chara_hide  name="Albert"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="Dr2"  time="1000"  wait="true"  left="-46"  top="63"  width="313"  height="417"  reflect="false"  ]
 [resetfont  ]
 [tb_start_text mode=1 ]
 # Doctor
@@ -182,6 +183,10 @@ We need all the help we can; my wearing a mask is my responsibility as a patient
 [tb_start_text mode=1 ]
 #
 The doctor finishes the examination and notes down your change in ventilation. [p]
+[_tb_end_text]
+
+[chara_hide  name="Dr2"  time="1000"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
 You settle back down for some rest, and despite your dark prognosis, [p]
 you are optimistic you can eventually recover and see your family and friends again.[p]
 [_tb_end_text]
@@ -193,6 +198,7 @@ You are feeling weaker and weaker despite the intensive care you have receivedâ€
 
 [chara_hide  name="DrLilyTang"  time="1000"  wait="true"  pos_mode="true"  ]
 [bg  time="1000"  method="crossfade"  storage="black.png"  ]
+[tb_image_show  time="1000"  storage="default/story_5_news_clip.png"  width="209"  height="322"  x="219"  y="5"  _clickable_img=""  ]
 [tb_start_text mode=1 ]
 Unfortunately, Dr. Rebecca Tang passed away two week laters due to SARS; [p]
 she was one of eight medical professionals who died in Hong Kong during the SARS outbreak. [p]
@@ -200,6 +206,7 @@ Dr. Tangâ€™s selflessness, courage, and dedication to her job remains an inspira
 
 [_tb_end_text]
 
+[tb_image_hide  time="1000"  ]
 [tb_start_text mode=1 ]
 This marks the end of our game. [p]
 But the fight against infectious diseases and to uphold the health of all Hong Kong citizens by our medical profession will never end.[p]

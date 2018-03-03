@@ -61,7 +61,7 @@ The third step is...[p]
 [_tb_end_text]
 
 [glink  color="black"  storage="scene3.ks"  size="16"  text="Place&nbsp;the&nbsp;mask&nbsp;with&nbsp;a&nbsp;cupped&nbsp;hand&nbsp;firmly&nbsp;over&nbsp;your&nbsp;nose,&nbsp;mouth&nbsp;and&nbsp;chin"  target="*fourth"  x="28"  y="276"  width=""  height=""  _clickable_img=""  ]
-[glink  color="black"  storage="scene3.ks"  size="18"  text="Position&nbsp;the&nbsp;bands&nbsp;over&nbsp;the&nbsp;head"  target="*wrong3"  x="154"  y="222"  width=""  height=""  _clickable_img=""  ]
+[glink  color="black"  storage="scene3.ks"  size="16"  text="Position&nbsp;the&nbsp;bands&nbsp;over&nbsp;the&nbsp;head"  target="*wrong3"  x="154"  y="222"  width=""  height=""  _clickable_img=""  ]
 [glink  color="black"  storage="scene3.ks"  size="16"  text="Hold&nbsp;the&nbsp;two&nbsp;sides&nbsp;of&nbsp;the&nbsp;mask&nbsp;and&nbsp;place&nbsp;firmly&nbsp;over&nbsp;your&nbsp;face"  target="*wrong3"  x="81"  y="172"  width=""  height=""  _clickable_img=""  ]
 [s  ]
 *wrong3

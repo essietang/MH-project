@@ -8,19 +8,9 @@
 [tb_show_message_window  ]
 [font  size="20"  color="0xffffff"  italic="true"  ]
 [tb_start_text mode=1 ]
-When you ask your superiors and mention the connection, they brush it off as merely a flu. [p]
-You are unsure in your new surroundings, so you do not examine the case further [p]
-even though Mr. Cheung does not get better within a week. [p]
-You have passed him off to another department, and you do not think any more of this matter.[p]
-[_tb_end_text]
-
-[bg  time="1000"  method="crossfade"  storage="icu.png"  ]
-[tb_start_text mode=1 ]
 You are working in the ICU tonight, and you have only just arrived for your shift. [p]
 The ICU is relatively silent at this time of night, but in addition to this silence, [p]
-there is a heavy blanket of fear over the whole hospital as the outbreak of SARS had only been confirmed a few weeks before [p]
-- everybody is tense as they go about their work. [p]
-News coming out of China has reported that healthcare workers were the hardest hit.[p]
+there is a heavy blanket of fear over the whole hospital as news coming out of China has reported that healthcare workers were the hardest hit by SARS.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -31,6 +21,7 @@ getting up from your desk (and making sure your own mask is secured), [p]
 you hurry to help the other doctors pushing the stretcher.[p]
 [_tb_end_text]
 
+[resetfont  ]
 [tb_start_text mode=1 ]
 # You
 What is the patient coming to the ICU for? Is there anything I can do to help?[p]
@@ -93,11 +84,11 @@ Enter the passcode to proceed.[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[tb_image_show  time="1000"  storage="default/word_search.png"  width="479"  height="313"  x="85"  y="16"  _clickable_img=""  name="img_27"  ]
+[tb_image_show  time="1000"  storage="default/wordsearch.png"  width="474"  height="314"  x="85"  y="16"  _clickable_img=""  name="img_25"  ]
 *get_wordsearch
 
 [edit  left="208"  top="367"  width="200"  height="40"  size="20"  maxchars="5"  name="f.wordsearch"  reflect="false"  ]
-[button  storage="scene2.ks"  target="*submit_wordsearch"  graphic="submit_button.png"  width="78"  height="35"  x="436"  y="375"  _clickable_img=""  name="img_29"  ]
+[button  storage="scene2.ks"  target="*submit_wordsearch"  graphic="submit_button.png"  width="78"  height="35"  x="436"  y="375"  _clickable_img=""  name="img_28"  ]
 [s  ]
 *submit_wordsearch
 
@@ -114,6 +105,13 @@ Please try again.[p]
 *wordsearch_ok
 
 [tb_image_hide  time="1000"  ]
-[tb_image_show  time="1000"  storage="default/low_risk_perception_news_clip.jpg"  width="370"  height="354"  x="114"  y="63"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/low_risk_perception_news_clip.jpg"  width="323"  height="309"  x="154"  y="5"  _clickable_img=""  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+You flip through the newspaper [p]
+and was disappointed to see the government taking such an unconcerned attitude towards SARS.[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
 [tb_image_hide  time="1000"  ]
 [jump  storage="scene3.ks"  target="*scene3start"  ]

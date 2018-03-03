@@ -14,6 +14,8 @@
 [chara_new  name="Albert"  jname="Albert"  storage="chara/7/phone.png"  ]
 ;MrLeung
 [chara_new  name="MrLeung"  jname="MrLeung"  storage="chara/8/mr_leung.png"  ]
+;Dr2
+[chara_new  name="Dr2"  jname="Dr2"  storage="chara/9/dr2.png"  ]
 
 ;=========変数宣言部分 
 [iscript] 

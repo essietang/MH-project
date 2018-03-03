@@ -64,7 +64,7 @@ How long have you been having this fever?[p]
 # Mr Cheung
 Around a week now...but honestly, it is not really the fever, but the problems breathing that is the main problem. [p]
 I have been working really hard - I’ve just come down from Guangzhou for several business meetings in Hong Kong [p]
-Could my illness just be a result overworking?[p]
+Could my illness just be a result of overworking?[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -94,7 +94,7 @@ Click to retrieve it.[p]
 
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="record.png"  ]
-[clickable  storage="scene1.ks"  x="294"  y="153"  width="47"  height="24"  target="*talk"  _clickable_img=""  ]
+[clickable  storage="scene1.ks"  x="263"  y="127"  width="51"  height="31"  target="*talk"  _clickable_img=""  ]
 [s  ]
 *talk
 
