@@ -36,7 +36,7 @@ Okay.[p]
 #
 Mr. Chen’s condition has improved since yesterday, you note, [p]
 but as you are recording his vital signs, you hear a beeping noise at the end of the ward. [p]
-You and the nurse turn around and hurry to the end of the ward where you discover Mr. Leung,[p]
+You and your colleague turn around and hurry to the end of the ward where you discover Mr. Leung,[p]
 [_tb_end_text]
 
 [chara_show  name="MrLeung"  time="1000"  wait="true"  left="175"  top="51"  width="278"  height="370"  reflect="false"  ]
@@ -139,7 +139,7 @@ You'll be fine, okay?[p]
 
 [tb_start_text mode=1 ]
 # You
-Yes, I will... *smile*[p]
+Yes, I will...[p]
 [_tb_end_text]
 
 [font  size="20"  color="0xffffff"  italic="true"  ]
